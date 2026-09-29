@@ -10,53 +10,51 @@ B.Tech. Information Technology, Semester V
 
 ## Files
 
-Rename `Enrollment` in every file name to your enrollment number before submitting (format `Enrollment_AssignmentNo_QNo.py`).
-
 | File | Question |
 |------|----------|
-| Enrollment_1_Q1.py | Campus Merit Analyzer |
-| Enrollment_1_Q2.py | Password Audit (Aho-Corasick + regex) |
-| Enrollment_1_Q3.py | Recursive Expression Engine |
-| Enrollment_1_Q4.py | CSV Transaction Splitter |
-| Enrollment_1_Q5.py | Bank Settlement System |
-| Enrollment_1_Q6.py | Module Dependency Resolver |
-| Enrollment_1_Q7.py | Formula Validator |
-| Enrollment_1_Q8.py | Compressed Log Index |
-| Enrollment_1_Q9.py | Threaded Job Scheduler |
-| Enrollment_1_Q10.py | Tkinter Assignment Tracker |
+| 12402080601008_1_Q1.py | Campus Merit Analyzer |
+| 12402080601008_1_Q2.py | Password Audit (Aho-Corasick + regex) |
+| 12402080601008_1_Q3.py | Recursive Expression Engine |
+| 12402080601008_1_Q4.py | CSV Transaction Splitter |
+| 12402080601008_1_Q5.py | Bank Settlement System |
+| 12402080601008_1_Q6.py | Module Dependency Resolver |
+| 12402080601008_1_Q7.py | Formula Validator |
+| 12402080601008_1_Q8.py | Compressed Log Index |
+| 12402080601008_1_Q9.py | Threaded Job Scheduler |
+| 12402080601008_1_Q10.py | Tkinter Assignment Tracker |
 
 ## How to run
 
 Q1, Q2, Q3, Q5, Q6, Q9 read from standard input:
 
 ```
-python Enrollment_1_Q1.py < tests/Q1_1.in
+python 12402080601008_1_Q1.py < tests/Q1_1.in
 ```
 
 Q7 is interactive (type formulas, finish with `quit`), or:
 
 ```
-python Enrollment_1_Q7.py < tests/Q7_1.in
+python 12402080601008_1_Q7.py < tests/Q7_1.in
 ```
 
 Q4 asks for the CSV path and writes `credit.csv`, `debit.csv`, `error.csv` in the current folder:
 
 ```
 cd tests/Q4
-echo transactions.csv | python ../../Enrollment_1_Q4.py
+echo transactions.csv | python ../../12402080601008_1_Q4.py
 ```
 
 Q8 (run from `tests/Q8`). BUILD also writes `archive.pkl` next to `archive.zip`:
 
 ```
 echo "BUILD logs archive.zip" | python ../../Enrollment_1_Q8.py
-echo "SEARCH archive.pkl 3 error db missing" | python ../../Enrollment_1_Q8.py
+echo "SEARCH archive.pkl 3 error db missing" | python ../../12402080601008_1_Q8.py
 ```
 
 Q10 opens a window and stores data in `assignment_tracker.json`:
 
 ```
-python Enrollment_1_Q10.py
+python 12402080601008_1_Q10.py
 ```
 
 ## Tests
